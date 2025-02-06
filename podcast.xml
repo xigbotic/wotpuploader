@@ -1,18 +1,21 @@
-<?xml version="1.0" ?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>WRLD of the Perced</title>
     <link>https://xigbotic.github.io/wotpuploader/podcast.xml</link>
-    <description>discord.gg/wotp</description>
-    <atom:link href="https://xigbotic.github.io/wotpuploader/podcast.xml" rel="self"/>
-    <docs>http://www.rssboard.org/rss-specification</docs>
-    <generator>python-feedgen</generator>
-    <image>
-      <url>https://xigbotic.github.io/wotpuploader/cover-art.png</url>
-      <title>WRLD of the Perced</title>
-      <link>https://xigbotic.github.io/wotpuploader/podcast.xml</link>
-    </image>
-    <lastBuildDate>Thu, 06 Feb 2025 18:51:44 +0000</lastBuildDate>
+    <description>Your podcast description</description>
+    <language>en-us</language> <!-- iTunes Language -->
+
+    <!-- iTunes Elements -->
+    <itunes:category text="Technology">
+      <itunes:category text="Software"/>
+    </itunes:category>
+    <itunes:explicit>No</itunes:explicit> <!-- Explicit content indicator -->
+    <itunes:email>boersjonathan@gmail.com</itunes:email> <!-- Email here -->
+    <itunes:author>Your Name</itunes:author>
+    
+    <!-- Cover Art for the Podcast -->
+    <itunes:image href="https://yourwebsite.com/path/to/your/cover-art.jpg" />
     <item>
       <title>100 Band Jugg (with ILOVEMAKONNEN).mp3</title>
       <guid isPermaLink="false">https://www.googleapis.com/drive/v3/files/1ei-NMirB_gPrm1VHWu1HXDfD-MOmDrt3?alt=media&amp;key=81647c5f3b32e351e962aa710845bd6b27fd18fa</guid>
